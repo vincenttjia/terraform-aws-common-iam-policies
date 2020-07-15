@@ -29,7 +29,9 @@ data "aws_iam_policy_document" "policy" {
       "codepipeline:GetPipelineExecution",
       "codepipeline:GetPipelineState",
       "codepipeline:ListPipelineExecutions",
+      "codepipeline:ListTagsForResource",
       "codepipeline:StartPipelineExecution",
+      "codepipeline:TagResource",
       "codepipeline:UpdatePipeline",
     ]
 
@@ -92,6 +94,7 @@ data "aws_iam_policy_document" "policy" {
     actions = [
       "codebuild:DeleteProject",
       "codebuild:DeleteWebhook",
+      "codebuild:InvalidateProjectCache",
       "codebuild:UpdateProject",
       "codebuild:UpdateWebhook",
     ]
