@@ -1,5 +1,5 @@
 # Terraform AWS Common IAM Policies
-[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=0.11.14,_<0.12.0-blue.svg)](https://releases.hashicorp.com/terraform/)
+[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=0.13.0,_<0.14.0-blue.svg)](https://releases.hashicorp.com/terraform/)
 [![Release](https://img.shields.io/github/release/traveloka/terraform-aws-common-iam-policies.svg)](https://github.com/traveloka/terraform-aws-common-iam-policies/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/traveloka/terraform-aws-common-iam-policies.svg)](https://github.com/traveloka/terraform-aws-common-iam-policies/commits/master)
 [![Issues](https://img.shields.io/github/issues/traveloka/terraform-aws-common-iam-policies.svg)](https://github.com/traveloka/terraform-aws-common-iam-policies/issues)
