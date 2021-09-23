@@ -1,7 +1,7 @@
 # Create IAM Role
 module "aws-iam-role_commonec2" {
   source  = "traveloka/iam-role/aws//modules/instance/"
-  version = "v1.0.2"
+  version = "3.0.0"
 
   product_domain = "tsi"
   service_name   = "tsicwa"

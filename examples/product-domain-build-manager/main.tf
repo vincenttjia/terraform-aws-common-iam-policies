@@ -5,7 +5,7 @@ locals {
 # Create IAM Role
 module "aws-iam-role_product-domain-build-manager" {
   source  = "traveloka/iam-role/aws//modules/user/"
-  version = "v1.0.2"
+  version = "3.0.0"
 
   role_name        = "ProductDomainBuildManager_${local.product_domain}"
   role_description = "Role for Build Manager of ${local.product_domain} Product Domain"
@@ -16,7 +16,7 @@ module "aws-iam-role_product-domain-build-manager" {
   mfa_required = "false"
 
   trusted_users = [
-    "arn:aws:sts::123456789012:assumed-role/SAMLUser/first.last@company.com",
+    "arn:aws:sts::811468751499:assumed-role/SAMLUser/t-vincent.tjianattan@traveloka.com",
   ]
 }
 

@@ -5,7 +5,7 @@ locals {
 # Create IAM Role
 module "aws-iam-role_datadog-integration" {
   source  = "traveloka/iam-role/aws//modules/external/"
-  version = "v1.0.2"
+  version = "3.0.0"
 
   role_name        = "DatadogIntegration"
   role_description = "Role for Datadog-AWS integration"

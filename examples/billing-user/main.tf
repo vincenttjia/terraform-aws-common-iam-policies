@@ -1,7 +1,7 @@
 # Create IAM Role
 module "aws-iam-role_billing-user" {
   source  = "traveloka/iam-role/aws//modules/user"
-  version = "v1.0.2"
+  version = "3.0.0"
 
   role_name        = "BillingUser"
   role_description = "Role for accessing Billing and Cost Management dashboard"
